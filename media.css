@@ -1,0 +1,28 @@
+/*  Tablet */
+@media (max-width: 830px) {
+    .image2{
+        display: none;
+    }
+    main{
+        justify-content: flex-start; 
+    }
+    main .info{
+        margin-left: 60px;
+    }
+
+}
+
+/* Mobile */
+
+@media (max-width : 375px) {
+    header{
+        flex-direction: column; 
+    }
+    .header{
+        width: 80%;
+        margin: 0 auto;
+    }
+    main{
+        flex-wrap: wrap;
+    }
+}
